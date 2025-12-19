@@ -1,0 +1,77 @@
+# API Contract: Isaac AI Robotics Documentation
+
+**Feature**: 003-isaac-ai-brain
+**Created**: 2025-12-17
+**Version**: 1.0.0
+
+## Documentation Endpoints
+
+### Isaac Sim Tutorials API
+```
+GET /api/tutorials/isaac-sim/{tutorial-id}
+```
+- **Purpose**: Retrieve Isaac Sim tutorial content
+- **Parameters**:
+  - tutorial-id: String identifier for specific tutorial
+- **Response**: Tutorial content with step-by-step instructions
+- **Authentication**: None required (public documentation)
+
+### Isaac ROS Examples API
+```
+GET /api/examples/isaac-ros/vslam/{example-id}
+```
+- **Purpose**: Retrieve Isaac ROS VSLAM example code and instructions
+- **Parameters**:
+  - example-id: String identifier for specific example
+- **Response**: Complete example with code snippets and setup instructions
+
+### Nav2 Configuration API
+```
+GET /api/configurations/nav2/humanoid/{config-id}
+```
+- **Purpose**: Retrieve Nav2 humanoid-specific configuration templates
+- **Parameters**:
+  - config-id: String identifier for specific configuration
+- **Response**: Configuration parameters and setup instructions
+
+## Content Management API
+
+### Search Isaac Content
+```
+POST /api/search
+Content-Type: application/json
+
+{
+  "query": "string",
+  "context": ["isaac-sim", "isaac-ros", "nav2"],
+  "max_results": 10
+}
+```
+- **Purpose**: Search across Isaac-related documentation content
+- **Response**: List of relevant content with snippets and links
+
+## Response Format
+All API responses follow this structure:
+```json
+{
+  "status": "success|error",
+  "data": {},
+  "metadata": {
+    "version": "string",
+    "last_updated": "timestamp",
+    "source": "string"
+  }
+}
+```
+
+## Error Responses
+```json
+{
+  "status": "error",
+  "error": {
+    "code": "string",
+    "message": "string",
+    "details": "string"
+  }
+}
+```

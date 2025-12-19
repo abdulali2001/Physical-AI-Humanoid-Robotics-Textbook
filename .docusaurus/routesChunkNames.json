@@ -1,0 +1,172 @@
+{
+  "/Physical-AI-Humanoid-Robotics-Textbook/__docusaurus/debug-483": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-docusaurus-debugb-38-6d3"
+    }
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/__docusaurus/debug/config-d85": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-docusaurus-debugb-38-6d3"
+    }
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/__docusaurus/debug/content-12e": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-docusaurus-debugb-38-6d3"
+    },
+    "__props": "__props---physical-ai-humanoid-robotics-textbook-docusaurus-debug-contenta-90-191"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/__docusaurus/debug/globalData-ffb": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-docusaurus-debugb-38-6d3"
+    }
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/__docusaurus/debug/metadata-978": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-docusaurus-debugb-38-6d3"
+    }
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/__docusaurus/debug/registry-c16": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-docusaurus-debugb-38-6d3"
+    }
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/__docusaurus/debug/routes-640": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-docusaurus-debugb-38-6d3"
+    }
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/blog-e72": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-blog-369-f43"
+    },
+    "sidebar": "sidebar---physical-ai-humanoid-robotics-textbook-blog-814-c12",
+    "items": [
+      {
+        "content": "content---physical-ai-humanoid-robotics-textbook-blogb-65-51e"
+      }
+    ],
+    "__props": "__props---physical-ai-humanoid-robotics-textbook-blogfdc-00c"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/blog/archive-540": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-blog-369-f43"
+    },
+    "__props": "__props---physical-ai-humanoid-robotics-textbook-blog-archive-2-c-8-e7e"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/blog/first-post-06b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---physical-ai-humanoid-robotics-textbook-blog-first-postace-38c"
+      },
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-blog-369-f43"
+    },
+    "sidebar": "sidebar---physical-ai-humanoid-robotics-textbook-blog-814-c12",
+    "content": "content---physical-ai-humanoid-robotics-textbook-blog-first-post-7-fc-03b"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/blog/tags-c98": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-blog-369-f43"
+    },
+    "sidebar": "sidebar---physical-ai-humanoid-robotics-textbook-blog-814-c12",
+    "__props": "__props---physical-ai-humanoid-robotics-textbook-blog-tagsc-1-f-618"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/blog/tags/humanoid-robotics-576": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-blog-369-f43"
+    },
+    "sidebar": "sidebar---physical-ai-humanoid-robotics-textbook-blog-814-c12",
+    "items": [
+      {
+        "content": "content---physical-ai-humanoid-robotics-textbook-blogb-65-51e"
+      }
+    ],
+    "__props": "__props---physical-ai-humanoid-robotics-textbook-blog-tags-humanoid-robotics-4-f-4-896"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/blog/tags/physical-ai-6ca": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-blog-369-f43"
+    },
+    "sidebar": "sidebar---physical-ai-humanoid-robotics-textbook-blog-814-c12",
+    "items": [
+      {
+        "content": "content---physical-ai-humanoid-robotics-textbook-blogb-65-51e"
+      }
+    ],
+    "__props": "__props---physical-ai-humanoid-robotics-textbook-blog-tags-physical-ai-146-2a3"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/blog/tags/robotics-fe1": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-blog-369-f43"
+    },
+    "sidebar": "sidebar---physical-ai-humanoid-robotics-textbook-blog-814-c12",
+    "items": [
+      {
+        "content": "content---physical-ai-humanoid-robotics-textbook-blogb-65-51e"
+      }
+    ],
+    "__props": "__props---physical-ai-humanoid-robotics-textbook-blog-tags-roboticsc-4-c-c02"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs-380": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---physical-ai-humanoid-robotics-textbook-docsaba-ff2"
+    }
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs-c15": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---physical-ai-humanoid-robotics-textbook-docs-832-cf4"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs-94e": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/intro-3b3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-humanoid-robotics-textbook-docs-intro-0-e-3-e28"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/introduction-b68": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-humanoid-robotics-textbook-docs-introductiona-09-76c"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/modules/ros2-humanoid-system/introduction-to-ros2-104": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-humanoid-robotics-textbook-docs-modules-ros-2-humanoid-system-introduction-to-ros-24-a-8-75a"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/modules/ros2-humanoid-system/robot-structure-with-urdf-1e6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-humanoid-robotics-textbook-docs-modules-ros-2-humanoid-system-robot-structure-with-urdf-1-bb-298"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/modules/ros2-humanoid-system/ros2-communication-model-380": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-humanoid-robotics-textbook-docs-modules-ros-2-humanoid-system-ros-2-communication-modelee-9-58c"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/placeholder-e93": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-humanoid-robotics-textbook-docs-placeholder-5-d-9-5d5"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/ros2/introduction-to-ros2-92d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-humanoid-robotics-textbook-docs-ros-2-introduction-to-ros-2-fa-5-a1a"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/ros2/robot-structure-urdf-578": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-humanoid-robotics-textbook-docs-ros-2-robot-structure-urdf-62-e-565"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/ros2/ros2-communication-model-958": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-humanoid-robotics-textbook-docs-ros-2-ros-2-communication-modelefb-71f"
+  }
+}

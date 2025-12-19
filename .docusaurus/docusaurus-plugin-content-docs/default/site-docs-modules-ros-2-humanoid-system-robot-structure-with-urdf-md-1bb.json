@@ -1,0 +1,17 @@
+{
+  "id": "modules/ros2-humanoid-system/robot-structure-with-urdf",
+  "title": "Robot Structure with URDF",
+  "description": "Understanding URDF",
+  "source": "@site/docs/modules/ros2-humanoid-system/robot-structure-with-urdf.md",
+  "sourceDirName": "modules/ros2-humanoid-system",
+  "slug": "/modules/ros2-humanoid-system/robot-structure-with-urdf",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/modules/ros2-humanoid-system/robot-structure-with-urdf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/ros2-humanoid-system/robot-structure-with-urdf.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Robot Structure with URDF"
+  }
+}

@@ -1,0 +1,203 @@
+# API Contract: Simulation Data Exchange
+# For Unity-ROS Bridge and Simulation Monitoring
+
+openapi: 3.0.0
+info:
+  title: Digital Twin Simulation API
+  description: API for exchanging simulation data between Gazebo, Unity, and monitoring tools
+  version: 1.0.0
+
+paths:
+  /simulation/state:
+    get:
+      summary: Get current simulation state
+      description: Retrieve the current state of the physics simulation including robot positions, velocities, and environment data
+      responses:
+        '200':
+          description: Current simulation state
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SimulationState'
+    post:
+      summary: Update simulation parameters
+      description: Modify physics parameters or environment settings during simulation
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SimulationParameters'
+      responses:
+        '200':
+          description: Parameters updated successfully
+
+  /sensors/data:
+    get:
+      summary: Get sensor data
+      description: Retrieve current sensor readings from all simulated sensors
+      responses:
+        '200':
+          description: Current sensor data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SensorData'
+
+  /robot/control:
+    post:
+      summary: Send robot commands
+      description: Send control commands to simulated robots
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RobotCommand'
+      responses:
+        '200':
+          description: Command accepted
+
+components:
+  schemas:
+    SimulationState:
+      type: object
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+          description: Time of state capture
+        robots:
+          type: array
+          items:
+            $ref: '#/components/schemas/RobotState'
+        environment:
+          $ref: '#/components/schemas/EnvironmentState'
+
+    RobotState:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique robot identifier
+        position:
+          $ref: '#/components/schemas/Vector3'
+        orientation:
+          $ref: '#/components/schemas/Quaternion'
+        velocity:
+          $ref: '#/components/schemas/Vector3'
+        sensors:
+          type: array
+          items:
+            $ref: '#/components/schemas/SensorReading'
+
+    Vector3:
+      type: object
+      properties:
+        x:
+          type: number
+        y:
+          type: number
+        z:
+          type: number
+
+    Quaternion:
+      type: object
+      properties:
+        x:
+          type: number
+        y:
+          type: number
+        z:
+          type: number
+        w:
+          type: number
+
+    EnvironmentState:
+      type: object
+      properties:
+        gravity:
+          $ref: '#/components/schemas/Vector3'
+        time:
+          type: number
+          description: Simulation time in seconds
+        objects:
+          type: array
+          items:
+            $ref: '#/components/schemas/EnvironmentObject'
+
+    EnvironmentObject:
+      type: object
+      properties:
+        id:
+          type: string
+        position:
+          $ref: '#/components/schemas/Vector3'
+        type:
+          type: string
+          enum: [static, dynamic, sensor]
+
+    SensorData:
+      type: object
+      properties:
+        lidar:
+          type: array
+          items:
+            type: number
+          description: LiDAR distance readings
+        camera:
+          type: object
+          properties:
+            rgb:
+              type: string
+              format: byte
+              description: RGB image data
+            depth:
+              type: string
+              format: byte
+              description: Depth image data
+        imu:
+          type: object
+          properties:
+            acceleration:
+              $ref: '#/components/schemas/Vector3'
+            orientation:
+              $ref: '#/components/schemas/Quaternion'
+            angular_velocity:
+              $ref: '#/components/schemas/Vector3'
+
+    RobotCommand:
+      type: object
+      properties:
+        robot_id:
+          type: string
+        command_type:
+          type: string
+          enum: [move, rotate, stop, sensor_config]
+        parameters:
+          type: object
+          description: Command-specific parameters
+
+    SimulationParameters:
+      type: object
+      properties:
+        gravity:
+          $ref: '#/components/schemas/Vector3'
+        time_step:
+          type: number
+          description: Physics simulation time step
+        real_time_factor:
+          type: number
+          description: Simulation speed relative to real time
+
+    SensorReading:
+      type: object
+      properties:
+        sensor_id:
+          type: string
+        timestamp:
+          type: string
+          format: date-time
+        data:
+          type: object
+          description: Sensor-specific data format

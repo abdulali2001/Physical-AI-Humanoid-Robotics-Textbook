@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir .specify /s /b)",
+      "Bash(git fetch --all --prune)",
+      "Bash(npx docusaurus build)",
+      "Bash(npx docusaurus serve)",
+      "Bash(npx docusaurus clear)",
+      "Bash(npm run build)",
+      "Bash(npx docusaurus serve --port 3001)",
+      "Bash(dir \"D:\\Physical-AI-Humanoid-Robotics-Textbook\\specs\\001-digital-twin-sim\"\")"
+    ]
+  }
+}

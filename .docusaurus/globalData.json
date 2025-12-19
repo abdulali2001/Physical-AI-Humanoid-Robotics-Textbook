@@ -1,0 +1,69 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs",
+          "mainDocId": "introduction",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/intro"
+            },
+            {
+              "id": "introduction",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/ros2-humanoid-system/introduction-to-ros2",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/modules/ros2-humanoid-system/introduction-to-ros2"
+            },
+            {
+              "id": "modules/ros2-humanoid-system/robot-structure-with-urdf",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/modules/ros2-humanoid-system/robot-structure-with-urdf"
+            },
+            {
+              "id": "modules/ros2-humanoid-system/ros2-communication-model",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/modules/ros2-humanoid-system/ros2-communication-model"
+            },
+            {
+              "id": "placeholder",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/placeholder",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ros2/introduction-to-ros2",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/ros2/introduction-to-ros2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ros2/robot-structure-urdf",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/ros2/robot-structure-urdf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ros2/ros2-communication-model",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/ros2/ros2-communication-model",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/introduction",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

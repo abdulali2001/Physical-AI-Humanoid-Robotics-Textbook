@@ -1,0 +1,26 @@
+{
+  "id": "ros2/ros2-communication-model",
+  "title": "ROS 2 Communication Model",
+  "description": "Overview",
+  "source": "@site/docs/ros2/ros2-communication-model.md",
+  "sourceDirName": "ros2",
+  "slug": "/ros2/ros2-communication-model",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/ros2/ros2-communication-model",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2/ros2-communication-model.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "ROS 2 Communication Model"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to ROS 2",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/ros2/introduction-to-ros2"
+  },
+  "next": {
+    "title": "Robot Structure with URDF",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/ros2/robot-structure-urdf"
+  }
+}
