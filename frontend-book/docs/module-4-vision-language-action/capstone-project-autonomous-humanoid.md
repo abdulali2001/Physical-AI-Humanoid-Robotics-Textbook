@@ -1,3 +1,8 @@
+---
+id: capstone-project-autonomous-humanoid
+title: "Capstone Project: The Autonomous Humanoid"
+---
+
 # Capstone Project: The Autonomous Humanoid
 
 ## Overview

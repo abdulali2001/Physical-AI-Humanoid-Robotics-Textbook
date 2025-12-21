@@ -1,3 +1,8 @@
+---
+id: voice-to-action-with-whisper
+title: Voice-to-Action with OpenAI Whisper
+---
+
 # Voice-to-Action with OpenAI Whisper
 
 ## Overview

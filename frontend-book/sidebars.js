@@ -35,8 +35,14 @@ const sidebars = {
       ],
     },
     {
-      type: 'doc',
-      id: 'placeholder',
+      type: 'category',
+      label: 'Module 4: Vision-Language-Action (VLA)',
+      collapsed: false,
+      items: [
+        'module-4-vision-language-action/voice-to-action-with-whisper',
+        'module-4-vision-language-action/cognitive-planning-with-llms',
+        'module-4-vision-language-action/capstone-project-autonomous-humanoid',
+      ],
     },
   ],
 };

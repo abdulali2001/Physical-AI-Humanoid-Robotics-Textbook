@@ -1,3 +1,8 @@
+---
+id: cognitive-planning-with-llms
+title: Cognitive Planning with LLMs
+---
+
 # Cognitive Planning with LLMs
 
 ## Overview
