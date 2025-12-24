@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://physical-ai-humanoid-robotics-textbook.vercel.app',
+  url: 'https://vercel.com/abdul-alis-projects-421e6398/physical-ai-humanoid-robotics-textbook-ibsu',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<projectName>/'
   baseUrl:  '/',
